@@ -24,7 +24,7 @@ export default function Header() {
             className="flex-shrink-0"
           >
             <a href="/" className="text-2xl font-bold text-white">
-              NFC<span className="text-blue-500">Card</span>
+              Solve<span className="text-blue-500">Kard</span>
             </a>
           </motion.div>
 

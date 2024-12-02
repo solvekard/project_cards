@@ -2,8 +2,10 @@ import Header from './components/Header';
 import FloatingShapes from './components/FloatingShapes';
 import HeroSection from './components/HeroSection';
 import FeaturesSection from './components/FeaturesSection';
+import WhyChooseUs from './components/WhyChooseUs';
 import ComingSoonSection from './components/ComingSoonSection';
 import Footer from './components/Footer';
+import whyChooseUsContent from './content/whyChooseUsContent.js'; 
 
 export default function Home() {
   return (
@@ -18,6 +20,7 @@ export default function Home() {
         <HeroSection />
         <ComingSoonSection />
         <FeaturesSection />
+        <WhyChooseUs data={whyChooseUsContent} />
         <Footer />
         </main>
       </div>
